@@ -1,16 +1,16 @@
 import Head from "next/head";
 import { Header } from "../components/Header";
-import { ArabicToRoman } from "../components/ArabicToRoman";
+import { RomanToArabic } from "../components/RomanToArabic";
 import { Footer } from "../components/Footer";
 
 export default function Roman() {
   return (
     <>
       <Head>
-        <title>Arabic To Roman</title>
+        <title>Roman To Arabic</title>
       </Head>
       <Header />
-      <ArabicToRoman />
+      <RomanToArabic />
       <Footer />
     </>
   );
